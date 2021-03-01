@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -21,8 +22,8 @@ public class PhotoSearchService {
     }
 
     private boolean filterBySearchTerm(PhotoData data, String searchTerm) {
-        return data.getAuthor().contains(searchTerm)
-                || data.getCamera().contains(searchTerm)
-                || data.getTags().contains(searchTerm);
+        return Optional.ofNullable(data.getAuthor()).map(e -> e.contains(searchTerm)).orElse(false)
+                || Optional.ofNullable(data.getCamera()).map(e -> e.contains(searchTerm)).orElse(false)
+                || Optional.ofNullable(data.getTags()).map(e -> e.contains(searchTerm)).orElse(false);
     }
 }
