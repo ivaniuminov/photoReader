@@ -1,7 +1,7 @@
-package com.agileengine.FileStorage.service;
+package com.agileengine.filestorage.service;
 
-import com.agileengine.FileStorage.domain.PhotoData;
-import com.agileengine.FileStorage.domain.PhotoFeed;
+import com.agileengine.filestorage.domain.PhotoData;
+import com.agileengine.filestorage.domain.PhotoFeed;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;

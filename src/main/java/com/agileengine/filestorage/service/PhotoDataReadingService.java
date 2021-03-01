@@ -1,6 +1,6 @@
-package com.agileengine.FileStorage.service;
+package com.agileengine.filestorage.service;
 
-import com.agileengine.FileStorage.domain.PhotoData;
+import com.agileengine.filestorage.domain.PhotoData;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

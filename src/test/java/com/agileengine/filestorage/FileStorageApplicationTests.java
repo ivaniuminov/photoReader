@@ -1,4 +1,4 @@
-package com.agileengine.FileStorage;
+package com.agileengine.filestorage;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

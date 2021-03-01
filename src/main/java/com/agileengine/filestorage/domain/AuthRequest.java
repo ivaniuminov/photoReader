@@ -1,4 +1,4 @@
-package com.agileengine.FileStorage.domain;
+package com.agileengine.filestorage.domain;
 
 import lombok.Value;
 

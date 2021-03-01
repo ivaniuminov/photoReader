@@ -1,6 +1,6 @@
-package com.agileengine.FileStorage.config;
+package com.agileengine.filestorage.config;
 
-import com.agileengine.FileStorage.domain.PhotoDataCache;
+import com.agileengine.filestorage.domain.PhotoDataCache;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

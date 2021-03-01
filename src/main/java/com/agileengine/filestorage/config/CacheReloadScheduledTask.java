@@ -1,7 +1,7 @@
-package com.agileengine.FileStorage.config;
+package com.agileengine.filestorage.config;
 
-import com.agileengine.FileStorage.domain.PhotoDataCache;
-import com.agileengine.FileStorage.service.PhotoDataReadingService;
+import com.agileengine.filestorage.domain.PhotoDataCache;
+import com.agileengine.filestorage.service.PhotoDataReadingService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;

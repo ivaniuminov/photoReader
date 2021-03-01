@@ -1,4 +1,4 @@
-package com.agileengine.FileStorage;
+package com.agileengine.filestorage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

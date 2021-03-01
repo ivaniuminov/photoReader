@@ -1,7 +1,7 @@
-package com.agileengine.FileStorage.controller;
+package com.agileengine.filestorage.controller;
 
-import com.agileengine.FileStorage.domain.PhotoData;
-import com.agileengine.FileStorage.service.PhotoSearchService;
+import com.agileengine.filestorage.domain.PhotoData;
+import com.agileengine.filestorage.service.PhotoSearchService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
