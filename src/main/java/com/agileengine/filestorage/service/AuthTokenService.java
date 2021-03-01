@@ -24,6 +24,10 @@ public class AuthTokenService {
                        : token;
     }
 
+    public void updateToken() {
+        token = fetchToken();
+    }
+
     private String fetchToken() {
         return template.postForEntity(baseUrl + "/auth", new AuthRequest(apiKey), AuthResponse.class)
                        .getBody()
